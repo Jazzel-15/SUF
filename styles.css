@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(images/background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f4f4f4; /* Fallback background color */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+}
+
+.signup-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 450px;
+  max-width: 90%; /* Responsive width */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #5cb85c;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #309230;
+}
+
+/* Confirmation Page Styles */
+.confirmation-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 600px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.confirmation-container h1 {
+  color: #5cb85c;
+  margin-bottom: 20px;
+}
+
+.tick-mark {
+  width: 50px;
+  height: 50px;
+}
+
+.welcome-message {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.details {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.details p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.details p strong {
+  color: #5cb85c;
+}
+
+.continue-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5cb85c;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.continue-button:hover {
+  background-color: rgb(5, 203, 203);
+}
